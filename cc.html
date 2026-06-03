@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Custom Content – SimsWorld</title>
+  <link rel="stylesheet" href="css/inicio.css">
+</head>
+<body>
+
+  <header>
+    <a href="inicio.html" class="logo">SimsWorld</a>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="inicio.html">Inicio</a></li>
+        <li class="dropdown">
+          <a class="dropbtn active">Servicios </a>
+          <ul class="dropdown-content">
+            <li><a href="mods.html">Mods</a></li>
+            <li><a href="cc.html">Custom Content</a></li>
+            <li><a href="mod-managers.html">Mod Managers</a></li>
+          </ul>
+        </li>
+        <li><a href="sobre_nosotros.html">Sobre nosotros</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div style="position:relative; z-index:1; text-align:center; padding:4rem 2rem 1rem;">
+    <div class="hero-badge"> Creadoras y sitios de descarga verificados</div>
+    <h1 style="font-family:'Fredoka One',cursive; font-size:clamp(2rem,5vw,3rem); margin:1rem 0 0.8rem; background:linear-gradient(135deg,#fff,var(--rosa)); -webkit-background-clip:text; -webkit-text-fill-color:transparent; background-clip:text;">
+      Custom Content
+    </h1>
+    <p style="color:var(--texto-suave); max-width:540px; margin:0 auto 1rem; line-height:1.7;">
+      Ropa, cabellos, muebles y accesorios de creadoras de confianza. Maxis Match y Alpha para todos los estilos.
+    </p>
+    <div class="divider" style="margin:1rem auto; background:linear-gradient(90deg,var(--rosa),var(--turquesa));"></div>
+  </div>
+
+  <section class="seccion">
+    <div class="grid" id="lista-cc">
+      <!-- Se carga desde la API -->
+    </div>
+  </section>
+
+  <footer>
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <span class="logo">SimsWorld</span>
+        <p>Tu portal de confianza para todo lo relacionado con Los Sims 4.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Servicios</h4>
+        <ul>
+          <li><a href="mods.html">Mods</a></li>
+          <li><a href="cc.html">Custom Content</a></li>
+          <li><a href="mod-managers.html">Mod Managers</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Portal</h4>
+        <ul>
+          <li><a href="inicio.html">Inicio</a></li>
+          <li><a href="sobre_nosotros.html">Sobre nosotros</a></li>
+          <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 SimsWorld. Hecho con <span></span> para la comunidad simmer.</span>
+      <span>No afiliado con EA o Maxis.</span>
+    </div>
+  </footer>
+
+  <script src="js/api.js"></script>
+  <script>
+    cargarAPI("cc.json", "cc", "lista-cc", plantillaCC);
+  </script>
+</body>
+</html>

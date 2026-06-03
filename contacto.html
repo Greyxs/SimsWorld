@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contacto – SimsWorld</title>
+  <link rel="stylesheet" href="css/inicio.css">
+</head>
+<body>
+
+  <header>
+    <a href="inicio.html" class="logo">SimsWorld</a>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="inicio.html">Inicio</a></li>
+        <li class="dropdown">
+          <a class="dropbtn">Servicios </a>
+          <ul class="dropdown-content">
+            <li><a href="mods.html">Mods</a></li>
+            <li><a href="cc.html">Custom Content</a></li>
+            <li><a href="mod-managers.html">Mod Managers</a></li>
+          </ul>
+        </li>
+        <li><a href="sobre_nosotros.html">Sobre nosotros</a></li>
+        <li><a href="contacto.html" class="active">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div class="contacto-wrap">
+    <div class="hero-badge" style="display:inline-flex; margin-bottom:1.2rem;"> Escríbenos</div>
+    <h2>Contacto</h2>
+    <p style="color:var(--texto-suave); margin-bottom:2rem; line-height:1.7;">
+      ¿Tienes alguna sugerencia, quieres recomendar un mod o simplemente saludar?
+      Mándanos un mensaje y te respondemos lo antes posible.
+    </p>
+
+    <form action="https://formspree.io/f/mlgvyjek" method="POST">
+      <div class="form-grupo">
+        <label for="email">Tu email</label>
+        <input type="email" id="email" name="_replyto" placeholder="tucorreo@ejemplo.com" required>
+      </div>
+      <div class="form-grupo">
+        <label for="mensaje">Mensaje</label>
+        <textarea id="mensaje" name="mensaje" rows="6" placeholder="Escribe tu mensaje aquí..." required></textarea>
+      </div>
+      <button type="submit" class="btn btn-primary" style="width:100%; justify-content:center; font-size:1rem;">
+        Enviar mensaje 
+      </button>
+    </form>
+  </div>
+
+  <footer>
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <span class="logo">SimsWorld</span>
+        <p>Tu portal de confianza para todo lo relacionado con Los Sims 4.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Servicios</h4>
+        <ul>
+          <li><a href="mods.html">Mods</a></li>
+          <li><a href="cc.html">Custom Content</a></li>
+          <li><a href="mod-managers.html">Mod Managers</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Portal</h4>
+        <ul>
+          <li><a href="inicio.html">Inicio</a></li>
+          <li><a href="sobre_nosotros.html">Sobre nosotros</a></li>
+          <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 SimsWorld. Hecho con <span></span> para la comunidad simmer.</span>
+      <span>No afiliado con EA o Maxis.</span>
+    </div>
+  </footer>
+
+</body>
+</html>

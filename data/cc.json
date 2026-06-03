@@ -1,0 +1,67 @@
+{
+  "cc": [
+    {
+      "id": 1,
+      "nombre": "The Sims Resource (TSR)",
+      "categoria": "CC - Sitio de descarga",
+      "descripcion": "Enorme biblioteca de CC de tipo alpha (realista). Tiene miles de piezas de ropa, cabello, muebles y objetos. Descarga gratuita con espera de 15 segundos; suscripción VIP para descargas instantáneas sin anuncios.",
+      "imagen": "https://www.thesimsresource.com/img/logo.png",
+      "link": "https://www.thesimsresource.com",
+      "tipo_contenido": ["Ropa", "Cabello", "Muebles", "Accesorios"]
+    },
+    {
+      "id": 2,
+      "nombre": "Mod The Sims",
+      "categoria": "CC - Sitio de descarga",
+      "descripcion": "Repositorio con curaduría comunitaria desde hace décadas. Bueno para CC de CAS, objetos de build/buy y mods de gameplay. También tiene hilos de solución de problemas muy útiles.",
+      "imagen": "https://modthesims.info/images/mts_logo.png",
+      "link": "https://modthesims.info",
+      "tipo_contenido": ["Ropa", "Objetos", "Mods", "Poses"]
+    },
+    {
+      "id": 3,
+      "nombre": "Ebonix",
+      "categoria": "CC - Creadora",
+      "descripcion": "Creadora especializada en cabellos y accesorios para Sims de piel oscura y morena, un área históricamente poco representada. También hace ropa y muebles en estilo Maxis Match.",
+      "imagen": "https://i.pinimg.com/originals/cc/f2/d0/ccf2d099f2e2b5b2a37b84e15b9d41fb.jpg",
+      "link": "https://www.patreon.com/cw/Ebonixsims",
+      "tipo_contenido": ["Cabello", "Ropa", "Accesorios"]
+    },
+    {
+      "id": 4,
+      "nombre": "SixamCC",
+      "categoria": "CC - Creador",
+      "descripcion": "Creador de muebles, objetos de build/buy y gameplay mods en estilo Maxis Match. Ideal para decorar interiores y contar historias. Todo el contenido es gratuito con opción de Patreon para acceso anticipado.",
+      "imagen": "https://sixam.cc/favicon.ico",
+      "link": "https://sixam.cc",
+      "tipo_contenido": ["Muebles", "Build/Buy", "Mods"]
+    },
+    {
+      "id": 5,
+      "nombre": "Arethabee",
+      "categoria": "CC - Creadora",
+      "descripcion": "Conocida por colecciones de moda temáticas como la Secret Society (inspirada en Wednesday de Netflix). Mezcla estilos góticos, rurales, oversized de los 90s y 2000s. Colabora frecuentemente con otras creadoras.",
+      "imagen": "https://simfileshare.net/thumbnail/3278534/",
+      "link": "https://arethabee.tumblr.com",
+      "tipo_contenido": ["Ropa", "Accesorios"]
+    },
+    {
+      "id": 6,
+      "nombre": "Greenllamas",
+      "categoria": "CC - Creadora",
+      "descripcion": "Una de las primeras en traer tendencias de moda actuales al juego. Destaca por prendas de temporada con estilos editorial y high-fashion. Sus colecciones se actualizan con frecuencia.",
+      "imagen": "https://i.pinimg.com/originals/4f/ae/a1/4faea1e4e8b2f1f6c2a5e0c8b3b94c5a.jpg",
+      "link": "https://greenllamas.tumblr.com",
+      "tipo_contenido": ["Ropa", "Accesorios"]
+    },
+    {
+      "id": 7,
+      "nombre": "TwistedCat",
+      "categoria": "CC - Creador",
+      "descripcion": "Creador versátil con contenido de cabello, accesorios, cejas y maquillaje. Su pack de maquillaje Sour Fruit es especialmente popular por sus tonos llamativos y detallados.",
+      "imagen": "https://i.pinimg.com/originals/a1/b2/c3/a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6.jpg",
+      "link": "https://www.patreon.com/cw/TwistedCat?l=es-419",
+      "tipo_contenido": ["Cabello", "Maquillaje", "Accesorios", "Cejas"]
+    }
+  ]
+}

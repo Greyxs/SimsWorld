@@ -1,0 +1,64 @@
+{
+  "mods": [
+    {
+      "id": 1,
+      "nombre": "MC Command Center (MCCC)",
+      "categoria": "Mod - Gameplay",
+      "descripcion": "El mod más popular del juego. Agrega control total sobre el story progression de los NPCs, demografía del vecindario, embarazos, carreras y muchísimo más. Esencial para cualquier jugadora seria.",
+      "imagen": "https://deaderpool-mccc.com/wp-content/uploads/2020/07/MCCC-Logo.png",
+      "link": "https://deaderpool-mccc.com",
+      "fuente": "Sitio oficial del creador",
+      "compatible_base_game": true
+    },
+    {
+      "id": 2,
+      "nombre": "CurseForge - Hub oficial de mods Sims 4",
+      "categoria": "Mod - Plataforma de descarga",
+      "descripcion": "Plataforma oficial asociada con EA desde 2022. Más de 10,000 mods y CC verificados con protección antivirus. Permite instalar mods con un solo clic y actualizarlos automáticamente. 20 millones de usuarios mensuales.",
+      "imagen": "data/img/curseforge.png",
+      "link": "https://www.curseforge.com/sims4",
+      "fuente": "Asociación oficial EA + Overwolf",
+      "compatible_base_game": true
+    },
+    {
+      "id": 3,
+      "nombre": "Better Build/Buy (TwistedMexi)",
+      "categoria": "Mod - Build/Buy",
+      "descripcion": "Mejora radicalmente el modo construcción. Permite buscar objetos por nombre, usar objetos de cualquier pack sin tenerlo y organizar el catálogo de build/buy de forma más eficiente.",
+      "imagen": "https://twistedmexi.com/favicon.ico",
+      "link": "https://twistedmexi.com",
+      "fuente": "Sitio oficial de TwistedMexi",
+      "compatible_base_game": true
+    },
+    {
+      "id": 4,
+      "nombre": "ModGuard (TwistedMexi)",
+      "categoria": "Mod - Seguridad",
+      "descripcion": "Mod de seguridad creado por TwistedMexi como respuesta a ataques de malware en la comunidad. Escanea tu carpeta de mods en tiempo real y bloquea cualquier archivo que intente cargar ejecutables maliciosos.",
+      "imagen": "asset",
+      "link": "https://www.patreon.com/posts/modguard-mod-v1-98126153",
+      "fuente": "CurseForge / Patreon de TwistedMexi",
+      "compatible_base_game": true
+    },
+    {
+      "id": 5,
+      "nombre": "More Columns in CAS (Weerbesu)",
+      "categoria": "Mod - CAS",
+      "descripcion": "Expande el número de columnas en Create-a-Sim de 2 a 3, 4 o 5. Ideal para quienes tienen mucho CC y quieren navegar más rápido sin hacer scroll infinito.",
+      "imagen": "https://modthesims.info/images/mts_logo.png",
+      "link": "https://www.patreon.com/posts/more-columns-in-27751117",
+      "fuente": "Mod The Sims",
+      "compatible_base_game": true
+    },
+    {
+      "id": 6,
+      "nombre": "LittleMsSam - Colección de mods base game",
+      "categoria": "Mod - Gameplay",
+      "descripcion": "Creadora con una extensa colección de mods que funcionan sin DLCs. Sus mods añaden funciones pequeñas pero esenciales como nuevas interacciones, mejoras de autonomía y más control sobre el día a día de tus Sims.",
+      "imagen": "https://littlemssam.tumblr.com/favicon.ico",
+      "link": "https://littlemssam.tumblr.com",
+      "fuente": "Sitio oficial de LittleMsSam",
+      "compatible_base_game": true
+    }
+  ]
+}

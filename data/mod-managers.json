@@ -1,0 +1,48 @@
+{
+  "mod_managers": [
+    {
+      "id": 1,
+      "nombre": "CurseForge App",
+      "categoria": "Mod Manager - Oficial",
+      "descripcion": "La opción más recomendada para principiantes. Plataforma oficial apoyada por EA con instalación de un clic, actualizaciones automáticas y biblioteca de más de 10,000 mods verificados. Disponible para Windows y Mac.",
+      "imagen": "https://www.curseforge.com/favicon.ico",
+      "link": "https://www.curseforge.com/download/app",
+      "plataforma": ["Windows", "Mac"],
+      "gratuito": true,
+      "fuente_verificada": true
+    },
+    {
+      "id": 2,
+      "nombre": "S4MM - Sims 4 Mod Manager (GameTimeDev)",
+      "categoria": "Mod Manager - Terceros",
+      "descripcion": "Herramienta de escritorio para organizar mods y CC con miniaturas visuales, filtros y opciones de activar/desactivar por lotes. Solo descargarlo desde el sitio oficial de GameTimeDev para evitar versiones alteradas.",
+      "imagen": "https://gametimedev.de/favicon.ico",
+      "link": "https://gametimedev.de/S4MM/",
+      "plataforma": ["Windows", "Mac (Intel y Apple Silicon)"],
+      "gratuito": true,
+      "fuente_verificada": true
+    },
+    {
+      "id": 3,
+      "nombre": "Sims 4 Studio",
+      "categoria": "Mod Manager - Herramienta avanzada",
+      "descripcion": "Herramienta avanzada para organizar, detectar conflictos y gestionar CC. Incluye un Tray Importer para manejar households y lotes. Muy útil para usuarias con cientos de mods que quieren diagnosticar problemas.",
+      "imagen": "https://sims4studio.com/favicon.ico",
+      "link": "https://sims4studio.com",
+      "plataforma": ["Windows", "Mac"],
+      "gratuito": true,
+      "fuente_verificada": true
+    },
+    {
+      "id": 4,
+      "nombre": "Vortex (Nexus Mods)",
+      "categoria": "Mod Manager - General",
+      "descripcion": "Gestor de mods general de Nexus Mods compatible con cientos de juegos incluyendo Sims 4. Permite actualizaciones automáticas para mods alojados en Nexus. Ideal si ya lo usas para otros juegos, aunque no cubre todos los creadores de Sims.",
+      "imagen": "https://www.nexusmods.com/favicon.ico",
+      "link": "https://www.nexusmods.com/about/vortex/",
+      "plataforma": ["Windows"],
+      "gratuito": true,
+      "fuente_verificada": true
+    }
+  ]
+}
